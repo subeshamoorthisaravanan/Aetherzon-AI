@@ -1,92 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aetherzon AI</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --main-green: #19726A; /* Use image sampling for exact match if you want */
-            --white: #FFFFFF;
-        }
-        body {
-            margin: 0;
-            font-family: 'Montserrat', Arial, sans-serif;
-            background: var(--white);
-            color: var(--main-green);
-        }
-        header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 60px 20px 30px 20px;
-            background: var(--white);
-        }
-        .logo {
-            width: 160px;
-            height: auto;
-            margin-bottom: 25px;
-        }
-        .company-name {
-            font-size: 2.8rem;
-            font-weight: 700;
-            color: var(--main-green);
-            margin-bottom: 0.5rem;
-        }
-        .slogan {
-            font-size: 1.25rem;
-            color: var(--main-green);
-            margin-bottom: 2rem;
-            font-style: italic;
-        }
-        .intro {
-            font-size: 1.12rem;
-            max-width: 700px;
-            text-align: center;
-            margin: 0 auto;
-            color: var(--main-green);
-        }
-        .cta-button {
-            margin-top: 2.5rem;
-            padding: 0.7rem 2rem;
-            font-size: 1.1rem;
-            background: var(--main-green);
-            color: var(--white);
-            border: none;
-            border-radius: 30px;
-            cursor: pointer;
-            transition: background 0.3s;
-            font-weight: 700;
-        }
-        .cta-button:hover {
-            background: #154B46;
-        }
-        footer {
-            margin-top: 60px;
-            text-align: center;
-            padding: 20px;
-            background: var(--main-green);
-            color: var(--white);
-            font-size: 1rem;
-        }
-        @media (max-width: 700px) {
-            .company-name { font-size: 2rem; }
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aetherzon AI - Home</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <img src="A4-1-2.jpg" class="logo" alt="Aetherzon AI Logo">
-        <div class="company-name">Aetherzon AI</div>
-        <div class="slogan">Innovate, Inspire, Impact.</div>
-        <div class="intro">
-            Welcome to Aetherzon AI—a startup on a mission to prove itself, solve real-world problems, and create new opportunities for a better tomorrow. Join a journey to shape the future and achieve what once seemed impossible.
-        </div>
-        <a href="#contact"><button class="cta-button">Get In Touch</button></a>
+        <img src="A4-1-2.jpg" alt="Aetherzon AI logo" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <footer>
-        &copy; 2025 Aetherzon AI. All rights reserved.
-    </footer>
+    <main class="page-content">
+        <h1>Welcome to Aetherzon AI</h1>
+        <p><em>Innovate, Inspire, Impact.</em></p>
+        <p>Join us on a journey to prove ourselves, solve real-world problems, and build a new, better future through AI innovation.</p>
+        <a href="contact.html"><button style="background: var(--main-green); color: var(--white); padding: 12px 25px; border: none; border-radius: 30px; font-weight: 700; cursor: pointer;">Get In Touch</button></a>
+    </main>
+    <footer>&copy; 2025 Aetherzon AI. All rights reserved.</footer>
 </body>
 </html>
