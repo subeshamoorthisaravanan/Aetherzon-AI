@@ -1,97 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aetherzon AI</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="logo.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --main-green: #19726A; /* Use image sampling for exact match if you want */
+            --white: #FFFFFF;
+        }
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: var(--white);
+            color: var(--main-green);
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 20px 30px 20px;
+            background: var(--white);
+        }
+        .logo {
+            width: 160px;
+            height: auto;
+            margin-bottom: 25px;
+        }
+        .company-name {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: var(--main-green);
+            margin-bottom: 0.5rem;
+        }
+        .slogan {
+            font-size: 1.25rem;
+            color: var(--main-green);
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+        .intro {
+            font-size: 1.12rem;
+            max-width: 700px;
+            text-align: center;
+            margin: 0 auto;
+            color: var(--main-green);
+        }
+        .cta-button {
+            margin-top: 2.5rem;
+            padding: 0.7rem 2rem;
+            font-size: 1.1rem;
+            background: var(--main-green);
+            color: var(--white);
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-weight: 700;
+        }
+        .cta-button:hover {
+            background: #154B46;
+        }
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            padding: 20px;
+            background: var(--main-green);
+            color: var(--white);
+            font-size: 1rem;
+        }
+        @media (max-width: 700px) {
+            .company-name { font-size: 2rem; }
+        }
+    </style>
 </head>
-
 <body>
     <header>
-        <img src="logo.jpg" alt="Aetherzon AI Logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#menu">Menu</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home" class="section">
-    <h1>Welcome to Aetherzon AI</h1>
-    <p>
-        Empowering innovation through cutting-edge Artificial Intelligence solutions.<br>
-        At Aetherzon AI, we blend technology with intelligence to transform ideas into smart, scalable, and impactful digital realities.
-    </p>
-    </section>
-
-    <section id="about" class="section">
-        <h2>About Us</h2>
-        <p>Aetherzon AI is an innovation-driven company committed to transforming industries with smart AI-powered solutions, cutting-edge automation, and user-first design principles.</p>
-    </section>
-
-    <section id="services" class="section">
-        <h2>Our Services</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>AI Consultancy</h3>
-                <p>Get expert advice on integrating AI into your business.</p>
-                <button>Like</button>
-            </div>
-            <div class="card">
-                <h3>Custom AI Solutions</h3>
-                <p>From chatbots to machine learning models, we build it for you.</p>
-                <button>Like</button>
-            </div>
-            <div class="card">
-                <h3>Data Analytics</h3>
-                <p>Turn your data into actionable insights with our analytics tools.</p>
-                <button>Like</button>
-            </div>
+        <img src="A4-1-2.jpg" class="logo" alt="Aetherzon AI Logo">
+        <div class="company-name">Aetherzon AI</div>
+        <div class="slogan">Innovate, Inspire, Impact.</div>
+        <div class="intro">
+            Welcome to Aetherzon AI—a startup on a mission to prove itself, solve real-world problems, and create new opportunities for a better tomorrow. Join a journey to shape the future and achieve what once seemed impossible.
         </div>
-    </section>
-
-    <section id="menu" class="section">
-        <h2>Explore More</h2>
-        <ul>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#careers">Careers</a></li>
-            <li><a href="#partners">Partners</a></li>
-            <li><a href="#support">Support</a></li>
-        </ul>
-    </section>
-
-    <section id="contact" class="section">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-<div class="links">
-<!--     <a href="https://www.aetherzonai.com" target="_blank">🌐 Official Website</a> -->
-    <a href="https://www.instagram.com/aetherzonai/" target="_blank">📸 Instagram</a>
-    <a href="https://www.linkedin.com/in/aetherzon-ai-5317a7365//" target="_blank">💼 LinkedIn</a>
-</div>
-
-    <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/916380271455" class="whatsapp-float" target="_blank" rel="noopener">
-    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Chat on WhatsApp">
-    <span class="notification-dot"></span>
-</a>
-
-
+        <a href="#contact"><button class="cta-button">Get In Touch</button></a>
+    </header>
     <footer>
-        <p>&copy; 2025 Aetherzon AI. All rights reserved.</p>
+        &copy; 2025 Aetherzon AI. All rights reserved.
     </footer>
 </body>
-
 </html>
